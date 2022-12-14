@@ -20,6 +20,7 @@ for (let i=0; i<posts.length; i++) {
     console.log(postData);
     
     const article = document.createElement("article");
+    article.classList.add("article");
 
     const title = document.createElement("h2");
     const titleText = document.createTextNode(postData.title);
